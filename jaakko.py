@@ -1,6 +1,3 @@
-from gettext import find
-from platform import java_ver
-
 
 def syt(knumerot):
 
@@ -67,9 +64,9 @@ def plusmiinus(teksti):
                 print(luku[0])
                 break
             
-            
-        if len(luku) == 1:
-            print("\nJotain meni rikki!")
+        
+    if len(luku) == 1:
+        print("\nJotain meni rikki!")
 
                 
             
