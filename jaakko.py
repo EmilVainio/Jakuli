@@ -113,7 +113,9 @@ def plusmiinus(teksti):
         elif karhu[duf] == '-':
             karhu[duf-1] = float(karhu[duf-1]) - float(karhu[duf+1])  
             del karhu[duf:duf+2]
-    print(karhu[0])
+    if float(karhu[0])==int(karhu[0]):
+        print(int(karhu[0]))
+    else: print(float(karhu[0]))
 
 
 
